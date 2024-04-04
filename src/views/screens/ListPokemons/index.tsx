@@ -39,7 +39,12 @@ const ListPokemons = () => {
               activeOpacity={0.8}
               onPress={() => navigate("DetailPokemon", { id: item.pokemon_v2_pokemon.id })}
             >
-              <Text style={styles.cardText}>{item.pokemon_v2_pokemon.name}</Text>
+              <View>
+                <Text style={styles.cardText}>{item.pokemon_v2_pokemon.id}</Text>
+                <Text style={styles.cardText}>{item.pokemon_v2_pokemon.name}</Text>
+
+              </View>
+              
               {image && (
                 <SvgUri 
                   uri={image}
