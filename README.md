@@ -30,4 +30,4 @@ Siga estes passos para instalar e executar o projeto:
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-projeto.git
+git clone https://github.com/Thiagolourenco/challengeIpmedia.git
